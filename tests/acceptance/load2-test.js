@@ -4,7 +4,7 @@
 
 var Sails = require('sails').Sails;
 
-describe('Works with empty patterns', function () {
+describe('Works with default settings', function () {
 
   var sails;
 
@@ -20,10 +20,7 @@ describe('Works with empty patterns', function () {
         // Skip grunt
         'grunt': false
       },
-      log: {level: 'error'},
-      eslint: {
-        patterns: []
-      }
+      log: {level: 'error'}
     }, function (err, _sails) {
       if (err) {
         return err;
@@ -40,7 +37,7 @@ describe('Works with empty patterns', function () {
     // return done();
   });
 
-  it('sails loads eslint hook with option and does not crash', function () {
+  it('sails loads eslint hook and does not crash', function () {
     return true;
   });
 

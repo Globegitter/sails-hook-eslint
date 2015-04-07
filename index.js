@@ -1,6 +1,7 @@
 var CLIEngine = require('eslint').CLIEngine;
 var chalk = require('chalk');
 var glob = require('glob');
+var path = require('path');
 
 var cli = new CLIEngine({});
 
@@ -43,7 +44,10 @@ module.exports = function (sails) {
         // choose which formatter to use
         formatter: 'stylish',
         // decide which folders/patterns should be checked
-        patterns: ['api', 'config']
+        patterns: [
+          path.resolve(sails.config.appPath,'api'), // eslint-disable-line comma-spacing
+          path.resolve(sails.config.appPath,'config') // eslint-disable-line comma-spacing
+        ]
       }
     },
 
