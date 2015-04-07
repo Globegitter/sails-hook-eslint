@@ -1,0 +1,39 @@
+{
+  "name": "sails-hook-eslint",
+  "version": "1.0.0",
+  "description": "Checks you Sails code with eslint",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Globegitter/sails-hook-eslint.git"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "eslint",
+    "jshint",
+    "linting"
+  ],
+  "author": "Markus Padourek <markus.padourek@gmail.com> (http://artificial.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Globegitter/sails-hook-eslint/issues"
+  },
+  "homepage": "https://github.com/Globegitter/sails-hook-eslint",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "eslint": "^0.18.0",
+    "glob": "^5.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.3",
+    "mocha-eslint": "^0.1.4",
+    "sails": "^0.11.0"
+  }
+}
