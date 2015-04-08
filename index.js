@@ -13,7 +13,7 @@ function runLint(pattern, format) {
     report &&
     report.errorCount > 0
   ) {
-    throw new Error(
+    console.log(
       chalk.red('Code did not pass lint rules') +
       formatter(report.results)
     );
