@@ -1,5 +1,5 @@
 # sails-hook-eslint
-[![npm version](https://badge.fury.io/js/sails-hook-eslint.svg)](https://npmjs.org/package/sails-hook-eslint) [![Dependency Status](https://img.shields.io/david/artificialio/sails-hook-eslint.svg?style=flat)](https://david-dm.org/globegitter/sails-hook-eslint)
+[![npm version](https://badge.fury.io/js/sails-hook-eslint.svg)](https://npmjs.org/package/sails-hook-eslint) [![Dependency Status](https://img.shields.io/david/globegitter/sails-hook-eslint.svg?style=flat)](https://david-dm.org/globegitter/sails-hook-eslint)
 
 *Needs at least Sails version 0.11.0 to work*
 
