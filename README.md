@@ -11,7 +11,7 @@
 
 ### Usage
 
-Just lift your app as normal, and enjoy linting of your app. To see how to create a `.eslintrc` and what is possible, see: http://eslint.org/
+Make sure you have a [.eslintrc](http://eslint.org/docs/user-guide/configuring) in your root folder. Then just lift your app as normal, and enjoy the power of linting. For an example of an `.eslintrc` file see: https://github.com/artificialio/sane/blob/master/.eslintrc
 
 ### Configuration
 
