@@ -20,7 +20,7 @@ By default, configuration lives in `sails.config.eslint`.  The configuration key
 Parameter      | Type                | Details
 -------------- | ------------------- |:---------------------------------
 check        | ((boolean)) | Whether or not sails should lint your JS code.  Defaults to `true`.
-formatter   | ((string)) | Which formatter to use.  Defaults to 'stylish'.
-patterns          | ((array)) | Which folders or glob patterns to lint.  Defaults to [path.resolve(sails.config.appPath, 'api'), path.resolve(sails.config.appPath, 'config')].
+formatter   | ((string)) | Which formatter to use.  Defaults to `'stylish'`.
+patterns          | ((array)) | Which folders or glob patterns to lint.  Defaults to `[path.resolve(sails.config.appPath, 'api'), path.resolve(sails.config.appPath, 'config')]`.
 
 That&rsquo;s it!
